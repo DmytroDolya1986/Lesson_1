@@ -1,0 +1,17 @@
+{
+  "name": "WEBPACK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack ./src/my-index.js --mode=production",
+    "watch": "webpack ./src/my-index.js --mode=development --devtool eval-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
