@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialog {
+    border: double 5px white;
+    border-radius: 8px;
+    width: 200px;
+    padding: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+        
+.dialog__close-btn{
+    padding: 18px;
+    width: 50px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 160px;
+}
+.dialog__close-btn:hover{
+    padding: 18px;
+    width: 50px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.btn {
+    position: fixed;
+    left: 42%;
+}
