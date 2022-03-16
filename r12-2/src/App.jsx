@@ -12,7 +12,7 @@ const App = () => {
             <BrowserRouter>
                 <ul className="navigation">
                     <li className="navigation__item">
-                        <Link to="/">Home</Link>
+                        <Link to="/">Homaaaae</Link>
                     </li>
                     <li className="navigation__item">
                         <Link to="/products">Products</Link>
