@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page__content {
+    text-align: center;
+    padding: 5px;
+}
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    list-style: none;
+    display: flex;
+}
+.navigation__item+.navigation__item {
+    padding-left: 20px;
+}
+.navigation__in {
+    list-style: none;
+    display: flex;
+}
+.navigation__item--in+.navigation__item--in{
+    padding-left: 25px;
+}
+.product {
+    text-transform: uppercase;
+    color: green;
+}
